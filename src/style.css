@@ -1,0 +1,26 @@
+body{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.menu {
+    display: flex;
+}
+.menu li:hover {
+    color: hsl(35, 77%, 62%);
+}
+.menu li {
+    display: flex;
+    margin-left: 70px;
+    list-style: none;
+    font-size: 18px;
+    color: hsl(236, 13%, 42%);
+}
